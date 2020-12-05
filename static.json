@@ -1,0 +1,22 @@
+{
+	"headers": {
+		"/*": {
+		"X-Author": "nanashinogonbee",
+		"Access-Control-Allow-Origin": "*"
+		},
+		"/login/": {
+		"X-Author": "nanashinogonbee",
+		"Access-Control-Allow-Origin": "*",
+		"Content-Type": "text/plain; charset=UTF-8"
+		},
+		"/promise/": {
+		"X-Author": "nanashinogonbee",
+		"Access-Control-Allow-Origin": "*",
+		"Content-Type": "text/plain"
+		},
+		"/fetch/": {
+		"X-Author": "nanashinogonbee",
+		"Access-Control-Allow-Origin": "*",
+		"Content-Type": "text/html"
+	}
+}
