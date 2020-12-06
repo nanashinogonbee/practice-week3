@@ -1,16 +1,17 @@
 <html>
-	<body>
-		<form name="form" method="post">
-			<input id="inp"></input>
-			<button id="bt" onclick="a()">bonk</button>
-		</form>
-	</body>
-	<script>
-		function a() {
-			const URL = document.getElementById('inp').value;
-			f = res => String(res);
-			fetch(URL, )
-				.then(URL.value = String(f));
-		}
-	</script>
+<body>
+	<form name="form" method="post">
+		<input id="inp"></input>
+		<button id="bt">bonk</button>
+	</form>
+</body>
+<script>
+	const inp = document.querySelector('#inp');
+	document.querySelector('#bt').addEventListener('click', () => {
+	fetch(inp.value, )
+		.then((x => {
+			x.text().then(x1 => inp.value = x1);
+		}))
+	});
+</script>
 </html>
